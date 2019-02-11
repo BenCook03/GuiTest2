@@ -62,7 +62,7 @@ public class GUI {
 			public void mouseClicked(MouseEvent e) {
 				int first = Integer.parseInt(First_Text_Box.getText());
 				int second = Integer.parseInt(Second_Text_Box.getText());
-				System.out.println(first * second);
+				System.out.println(first / second);
 			}
 		});
 		btnCalculate.addActionListener(new ActionListener() {
